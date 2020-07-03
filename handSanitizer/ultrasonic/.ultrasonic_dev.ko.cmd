@@ -1,0 +1,1 @@
+cmd_/home/pi/SP/project/ultrasonic/ultrasonic_dev.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/SP/project/ultrasonic/ultrasonic_dev.ko /home/pi/SP/project/ultrasonic/ultrasonic_dev.o /home/pi/SP/project/ultrasonic/ultrasonic_dev.mod.o ;  true
